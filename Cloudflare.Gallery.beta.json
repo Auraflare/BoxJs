@@ -1,0 +1,9 @@
+{
+	"name": "⛅ Auraflare",
+	"description": "Cloudflare® 资源集成解决方案",
+	"task": [
+		{ "config": "event-interaction https://github.com/Auraflare/1.1.1.1/releases/latest/download/panel.bundle.js, tag=☁ Cloudflare: 📊 Panel, img-url=lock.icloud.fill.system, enabled=true", "addons": "" },
+		{ "config": "event-network https://gist.github.com/VirgilClyne/c60dfce3f7c0b3c8050d6e9306a23eb6/raw/event.bundle.js, tag=☁ Cloudflare: 🇩 DNS (event-network), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Cloudflare.png, enabled=true", "addons": "" },
+		{ "config": "*/10 * * * * https://gist.github.com/VirgilClyne/c60dfce3f7c0b3c8050d6e9306a23eb6/raw/event.bundle.js, tag=☁ Cloudflare: 🇩 DNS (cron), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Cloudflare.png, enabled=true", "addons": "" }
+	]
+}
